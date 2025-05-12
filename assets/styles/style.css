@@ -1,8 +1,29 @@
-* {
-  box-sizing: border-box;
+:root {
+  --white: #FFFFFF;
+  --primary: #4676A9;
+  --secondary: #CB731C;
+  --footer-bg: #22466C;
 }
 
-img {
-  width: 100%;
-  object-fit: cover;
+body {
+  font-family: sans-serif;
+  color: #1B281B;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  color: var(--primary);
+  text-align: center;
+}
+
+h2 {
+  color: var(--secondary);
+}
+
+footer {
+  background-color: var(--footer-bg);
+  color: var(--white);
 }
